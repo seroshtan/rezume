@@ -1,13 +1,13 @@
 @font-face {
-  font-family: MyriadPro-Light;
-  src: local("MyriadPro-Light"), url("fonts/MyriadPro-Light.ttf");
+  font-family: Myriad Pro Lightt;
+  src: local("Myriad Pro Light"), url("fonts/Myriad Pro Light.ttf");
 }
 body {
   margin: 0;
   padding: 0;
 }
 .wrapper {
-  font-family: "Myriad Pro Light";
+  font-family: Myriad Pro Light;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
