@@ -1,0 +1,124 @@
+html
+    head
+        link(rel='stylesheet', href='style.css')
+        title Rezume Seroshtan
+    body
+        div.wrapper
+            div.block-left
+                div.block
+                    div.block__round1
+                        div.block__round2
+                    p.block__title.block__title_size-name name here
+                    p.block__title.block__title_size-surname surname
+                    p.block__title.block__title_size-prof graphic designer
+                div.block
+                    h2.block__section profile
+                    p.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+                div.block
+                    h2.block__section contact
+                    div.contact-form
+                        ul.contact-form__left.contact-form_style
+                            li.contact-form_indent ADDRESS
+                            li.contact-form_indent E-MAIL
+                            li.contact-form_indent PHONE
+                            li.contact-form_indent WEBSITE
+                        ul.contact-form_style
+                            li.contact-form_indent Main Street, City.
+                            li.contact-form_indent contact@domain.com
+                            li.contact-form_indent 555-555-555
+                            li.contact-form_indent www.yourweb.com
+                div.block
+                    h2.block__section skills
+                    -function circle (x, y){
+                    div.skills
+                        - for (var i=1; i<=x; i++) {
+                        div.skills__circle.skills__circle_blue
+                        - }
+                        - for (var i=1; i<=y; i++) {
+                        div.skills__circle.skills__circle_grey
+                        - }
+                    -}
+                    p.title-skills creative
+                    -circle (9, 3)
+                    p.title-skills teamwork
+                    -circle (11, 1)
+                    p.title-skills innovate
+                    -circle (6, 6)
+                    p.title-skills communication
+                    -circle (11, 1)
+            div.block-right
+                div.block.order2
+                    h2.block__section education
+                    ul
+                        li.list
+                            span.list__important.list__important_color  MASTER DEGREE
+                            |// Feb 2011 - Jun 2014
+                            p.list UNIVERSITY NAME
+                            p.list__text.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+                        li.list
+                            span.list__important.list__important_color  MASTER DEGREE
+                            |// Feb 2011 - Jun 2014
+                            p.list UNIVERSITY NAME
+                            p.list__text.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+                        li.list
+                            span.list__important.list__important_color  MASTER DEGREE
+                            |// Feb 2011 - Jun 2014
+                            p.list UNIVERSITY NAME
+                            p.list__text.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+                        li.list
+                            span.list__important.list__important_color  MASTER DEGREE
+                            |// Feb 2011 - Jun 2014
+                            p.list UNIVERSITY NAME
+                            p.list__text.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+                div.block
+                    h2.block__section experience
+                    ul
+                        li.list
+                            span.list__important COMPANY NAME
+                            |// Feb 2011 - Jun 2014
+                            p.list YOUR JOB HERE
+                            p.list__text.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+                        li.list
+                            span.list__important COMPANY NAME
+                            |// Feb 2011 - Jun 2014
+                            p.list YOUR JOB HERE
+                            p.list__text.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+                        li.list
+                            span.list__important COMPANY NAME
+                            |// Feb 2011 - Jun 2014
+                            p.list YOUR JOB HERE
+                            p.list__text.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+                div.block
+                    h2.block__section software
+                    -function box (x, y){
+                    div.software__block
+                        - for (var i=1; i<=x; i++) {
+                        div.software__box.software__box_blue
+                        - }
+                        - for (var i=1; i<=y; i++) {
+                        div.software__box.software__box_grey
+                        - }
+                    -}
+                    div.software
+                        ul.software-list
+                            li.text-software photoshop
+                            -box (9, 1)
+                            li.text-software illustrator
+                            -box (7, 3)
+                            li.text-software indesign
+                            -box (5, 5)
+                        ul.software-list
+                            li.text-software dreamweawer
+                            -box (8, 2)
+                            li.text-software after effects
+                            -box (6, 4)
+                            li.text-software html&css3
+                            -box (9, 1)
