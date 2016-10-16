@@ -1,3 +1,7 @@
+@font-face {
+  font-family: MyriadPro-Light;
+  src: local("MyriadPro-Light"), url("fonts/MyriadPro-Light.ttf");
+}
 body {
   margin: 0;
   padding: 0;
@@ -55,7 +59,7 @@ body {
   margin: 5% auto;
 }
 .block__section {
-  color: #3d6cb0;
+  color: #36c;
   margin-left: 10%;
   font-variant: small-caps;
   font-size: 2.5rem;
@@ -110,6 +114,7 @@ body {
 }
 .list {
   font-size: 1.1rem;
+  list-style: none;
 }
 .list__important {
   font-weight: bold;

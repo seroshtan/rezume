@@ -1,0 +1,47 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-circle {
+    width: 43px;
+    height: 43px;
+    background-position: -5px -5px;
+}
+
+.sprite-contact {
+    width: 156px;
+    height: 156px;
+    background-position: -58px -5px;
+}
+
+.sprite-education {
+    width: 156px;
+    height: 156px;
+    background-position: -224px -5px;
+}
+
+.sprite-experience {
+    width: 159px;
+    height: 159px;
+    background-position: -5px -171px;
+}
+
+.sprite-profile {
+    width: 156px;
+    height: 156px;
+    background-position: -174px -171px;
+}
+
+.sprite-skills {
+    width: 156px;
+    height: 156px;
+    background-position: -390px -5px;
+}
+
+.sprite-software {
+    width: 159px;
+    height: 159px;
+    background-position: -340px -171px;
+}
